@@ -1,8 +1,9 @@
+/*Creo una clase 'imagen' para darle tamaño*/
 .img{
     width: 8em;
     height: 4em;
 }
-
+/*Empiezo con la clase body para tener un div de fondo donde trabajar*/
 .body{
     display: flex;
     flex-direction: row;
@@ -22,4 +23,63 @@
     height: 5em;
     width: 5em;
 
+}
+/*Ésta es la barra superior de menú*/
+.barras{
+    color: rgb(155, 154, 154);
+    justify-content: space-evenly;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(65, 65, 65);
+    grid-template-rows: repeat(8 ,2fr);
+}
+
+.barraweb{
+    background-color: rgb(65, 65, 65);
+}
+
+.barraimages{
+    background-color: rgb(65, 65, 65);
+}
+
+.barravideos{
+    background-color: rgb(65, 65, 65);
+}
+
+.barramaps{
+    background-color: rgb(65, 65, 65);
+}
+
+.barranews{
+    background-color: rgb(65, 65, 65);
+}
+
+.barrashopping{
+    background-color: rgb(65, 65, 65);
+}
+
+.barramail{
+    background-color: rgb(65, 65, 65);
+}
+
+.barramore{
+    background-color:rgb(65, 65, 65);
+}
+
+
+
+.superior1{
+    background-color: rgb(65, 65, 65);
+    width: 100%;
+    height: 2em;
+
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.web{
+    align-self: start;
 }
