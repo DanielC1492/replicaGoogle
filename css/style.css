@@ -1,12 +1,12 @@
 /*Creo una clase 'imagen' para darle tamaño*/
 .img{
-    width: 8em;
-    height: 4em;
+    width: 20em;
+    height: 10em;
 }
 /*Empiezo con la clase body para tener un div de fondo donde trabajar*/
 .body{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -14,17 +14,17 @@
     width: 50em;
 }
 
-.sublogo{
+/*Ésta es la barra superior de menú*/
+
+.superior1{
+    background-color: rgb(65, 65, 65);
+    width: 100%;
+    height: 2em;
+
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    height: 5em;
-    width: 5em;
-
 }
-/*Ésta es la barra superior de menú*/
+
 .barras{
     color: rgb(155, 154, 154);
     justify-content: space-evenly;
@@ -67,19 +67,43 @@
     background-color:rgb(65, 65, 65);
 }
 
+/*Empezamos a colocar el logo y los botones en su sitio*/
 
-
-.superior1{
-    background-color: rgb(65, 65, 65);
-    width: 100%;
-    height: 2em;
-
+.sublogo{
+    width: 10em;
+    height: 10em;
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-evenly;
+
+  
+    background-color: rgb(255, 255, 255);
 
 }
 
-.web{
-    align-self: start;
+.barrabusqueda{
+    width: 30em;
+    height: 2em;
+    background-color: darkorchid;
 }
+
+.search{
+    justify-items: center;
+    margin:30px black;
+    background-color: rgb(182, 182, 182);
+    width: 7em;
+    height: 3em;
+    margin-right: 1em;
+
+
+}
+
+.lucky{
+    text-justify: auto;
+    margin:30px black;
+    background-color: rgb(182, 182, 182);
+    width: 7em;
+    height: 3em;
+}
+
+
