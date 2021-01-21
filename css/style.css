@@ -1,7 +1,8 @@
 /*Creo una clase 'imagen' para darle tamaño*/
+    
 .img{
-    width: 20em;
-    height: 10em;
+    width: 22em;
+    height: 9em;
 }
 /*Empiezo con la clase body para tener un div de fondo donde trabajar*/
 .body{
@@ -70,40 +71,55 @@
 /*Empezamos a colocar el logo y los botones en su sitio*/
 
 .sublogo{
-    width: 10em;
+    width: 20em;
     height: 10em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
-  
     background-color: rgb(255, 255, 255);
-
-}
-
-.barrabusqueda{
-    width: 30em;
-    height: 2em;
-    background-color: darkorchid;
 }
 
 .search{
     justify-items: center;
     margin:30px black;
-    background-color: rgb(182, 182, 182);
-    width: 7em;
-    height: 3em;
+    background-color: rgb(243, 242, 242);
+    width: 100em;
+    height: 1.5em;
     margin-right: 1em;
-
-
+    margin-top: 1em;
+    text-align: center;
+    font-style: inherit;
+    border:solid black 0.1em;
+    background: linear-gradient(rgb(231, 231, 231), rgb(252, 252, 252), rgb(231, 231, 231));
 }
 
 .lucky{
     text-justify: auto;
     margin:30px black;
-    background-color: rgb(182, 182, 182);
-    width: 7em;
-    height: 3em;
+    background-color: rgb(243, 242, 242);
+    width: 100em;
+    height: 1.5em;
+    margin-top: 1em;
+    text-align: center;
+    margin-left: 0.5em;
+    border:solid black 0.1em;
+    background: linear-gradient(rgb(231, 231, 231), rgb(252, 252, 252), rgb(231, 231, 231));
+
+}
+
+/*Introducimos la barra de búsqueda. Un div transparente con un border discreto.*/
+
+.barrabusqueda{
+    width: 35em;
+    height: 1.5em;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(124, 124, 124) 0.1em;
+}
+
+.barrita{
+    font-size: 1.5em;
 }
 
 
