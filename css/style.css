@@ -11,8 +11,8 @@
     justify-content: center;
     align-items: center;
 
-    height: 50em;
-    width: 50em;
+    height: 99vh;
+    width: 99vw;
 }
 
 /*Ésta es la barra superior de menú*/
@@ -82,7 +82,7 @@
 .search{
     justify-items: center;
     margin:30px black;
-    background-color: rgb(243, 242, 242);
+    background-color: rgb(255, 255, 255);
     width: 100em;
     height: 1.5em;
     margin-right: 1em;
@@ -91,6 +91,11 @@
     font-style: inherit;
     border:solid black 0.1em;
     background: linear-gradient(rgb(231, 231, 231), rgb(252, 252, 252), rgb(231, 231, 231));
+}
+
+.search:hover{
+    transition: 0.5s;
+    background-color: lawngreen;
 }
 
 .lucky{
